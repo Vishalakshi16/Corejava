@@ -1,0 +1,16 @@
+package com.xworkz.inheritanceapp;
+
+public class StatesTester {
+public static void main(String args[]) {
+		
+		States st = new States();
+		st.stateOfIndia(29);
+		System.out.println("Number of states in india" + st.noOfDistricts);
+		
+		Karnatak st1 = new Karnatak();
+		st1.stateOfIndia(32);
+		System.out.println("Number of districts in karnatak" +st1.noOfDistricts);
+	}
+
+
+}
