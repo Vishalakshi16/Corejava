@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.workz.examapp.hallticket.HallTicket"/>
+    <fullyQualifiedTypeName name="com.workz.examapp.exam.Exam"/>
+    <fullyQualifiedTypeName name="com.workz.examapp.hallticket.Cofee"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.patient.Patient"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.constant.Gender"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.ecengineer.EcEngineer"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.engineer.Engineer"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.cs.CsEnginner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.cs.RedBull"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.ecengineer.Cocacola"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.engineer.Tin"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.cs.Apple"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.ecengineer.Orange"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.engineer.Fruits"/>
+    <fullyQualifiedTypeName name="com.workz.examapp.exam.Coffee"/>
+    <fullyQualifiedTypeName name="com.workz.examapp.exam.Coffee1"/>
+    <fullyQualifiedTypeName name="com.workz.examapp.hallticket.CoffeeShop1"/>
+</qualifiedTypeNameHistroy>

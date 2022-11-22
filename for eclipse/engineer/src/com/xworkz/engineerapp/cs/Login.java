@@ -1,0 +1,24 @@
+package com.xworkz.engineerapp.cs;
+
+public class Login {
+
+	static String name;
+	static int age;
+	public static void main(String[] args) {
+		credential("abc");
+		credential("bgmit",24);
+	}
+		
+		public static void credential (String name) {
+			System.out.println("name is"+name);
+			
+		}
+		
+		public static void credential (String name,int age) {
+			System.out.println("name is"+name);
+			System.out.println("age  is"+age);
+			  
+		}
+		
+	
+}

@@ -1,0 +1,21 @@
+package com.xworkz.interveiwquestions;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		Methods mn=new Methods();
+		mn.mobile(3456789L);
+		
+	}
+	
+	public static void name(String name) {
+		System.out.println("name methode");
+		
+	}
+	
+public  void mobile(Long phNo) {
+		System.out.println("phNo method ");
+		name("chaitu");
+	}
+}
+//can not override the static methode.static methode can be overload

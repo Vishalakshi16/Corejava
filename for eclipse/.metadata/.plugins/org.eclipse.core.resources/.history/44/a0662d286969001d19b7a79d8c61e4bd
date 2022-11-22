@@ -1,0 +1,9 @@
+package com.xworkz.polymorphismapp.Exam;
+
+public class Supplementary extends Exam {
+	
+	public boolean allow(HallTicket hallticket)
+	{
+	return false;	
+	}
+}

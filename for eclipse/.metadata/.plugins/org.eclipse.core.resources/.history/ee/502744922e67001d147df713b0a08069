@@ -1,0 +1,16 @@
+package com.xworkz.interveiwquestions;
+
+public class SwapNumber {
+	public static void main(String[] args) {
+	int	temp=0 ;
+	int a=10;
+	int b=20;
+	System.out.println("before swapping numbers are "+ a +" "+ b );
+	a=temp;
+	b=a;
+	temp=b;
+	System.out.println("before swapping numbers are "+ a +" "+ b );
+	
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.xworkz.polymorphismapp.Exam;
+
+public class Supplementary extends Exam {
+	int noOfAttempts;
+	public Supplementary(int noOfAttempts) {
+		this.noOfAttempts=noOfAttempts;
+	}
+	//@override
+	public boolean allow(HallTicket hallticket)
+	{
+	 System.out.println("invoke allow methode of supplementary");
+	 if(noOfAttempts>1) {
+		 return super.allow(hallticket);
+	 }
+	return false;	
+	}
+}

@@ -1,0 +1,7 @@
+package com.xworkz.engineerapp.ecengineer;
+
+import com.xworkz.engineerapp.engineer.Tin;
+@Override
+public class Cocacola  extends Tin{
+  System.out.println("cocacola provide cocacola softDrink");
+}

@@ -1,0 +1,19 @@
+package com.xworkz.interveiwquestions;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public static void name(String name) {
+		System.out.println("name methode");
+		
+	}
+	
+public  void mobile(String phNo) {
+		System.out.println("phNo method ");
+		name("chaitu");
+	}
+}

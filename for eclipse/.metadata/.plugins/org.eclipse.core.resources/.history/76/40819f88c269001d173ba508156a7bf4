@@ -1,0 +1,12 @@
+package com.xworkz.encapsulationapp;
+
+public class VehicleTester {
+
+	public static void main(String[] args) {
+		VehicleDTO vh=new VehicleDTO();
+		vh.setName("cycle");
+		vh.setId(2);
+		vh.setPrice(900);
+	}
+	
+}

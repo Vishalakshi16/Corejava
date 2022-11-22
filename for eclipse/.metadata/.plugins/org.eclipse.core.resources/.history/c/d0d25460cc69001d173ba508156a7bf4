@@ -1,0 +1,12 @@
+package com.xworkz.encapsulationapp;
+
+public class Chocalates {
+ private String name;
+ private String color;
+ 
+ public void setName(String name ) {
+	 this.name=name;
+	 
+	 
+ }
+}

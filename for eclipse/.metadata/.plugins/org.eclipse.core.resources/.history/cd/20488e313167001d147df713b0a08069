@@ -1,0 +1,11 @@
+package com.xworkz.interveiwquestions;
+
+public class Vish {
+	public static void main(String[] args) {
+		int num=12;
+		int fact=1;
+		
+	}
+
+
+}

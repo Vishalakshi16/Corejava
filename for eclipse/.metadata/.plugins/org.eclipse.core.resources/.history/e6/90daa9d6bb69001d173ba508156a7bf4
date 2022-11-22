@@ -1,0 +1,18 @@
+package com.xworkz.encapsulationapp;
+
+public class AnimalDTO {
+private String  name;
+private String color;
+
+void SetName(String nm) {
+	name=nm;
+}
+
+ String getName() {
+	return name;
+	
+}
+
+
+ 
+}

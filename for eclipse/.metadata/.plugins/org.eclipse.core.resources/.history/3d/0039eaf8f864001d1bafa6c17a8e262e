@@ -1,0 +1,17 @@
+package com.xworkz.engineerapp;
+
+import com.xworkz.engineerapp.cs.RedBull;
+import com.xworkz.engineerapp.ecengineer.Cocacola;
+import com.xworkz.engineerapp.engineer.Tin;
+
+public class TinTester {
+ 
+	public static void main() {
+	Tin tn=new RedBull();
+	tn.storeLiquide();
+	
+	Tin tn1=new Cocacola();
+	tn1.storeLiquide();
+	
+	}
+}

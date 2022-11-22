@@ -1,0 +1,15 @@
+package com.xworkz.encapsulationapp;
+
+public class AnimalTester {
+	
+	public static void main(String[] args) {
+		AnimalDTO an =new  AnimalDTO();
+		an.setName("chimpanji");
+		an.setColor("black");
+		System.out.println("animal name is "+an.getName());
+		System.out.println("animal name is "+an.getColor());
+		
+
+	}
+
+}
