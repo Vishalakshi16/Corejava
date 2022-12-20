@@ -7,6 +7,7 @@ import com.xworkz.hospitalapp.patient.Patient;
 public class ApolloHospital extends Hospital {
 	public Patient[] patients;
 	int index;
+	Patient newPatients[];
 	
 	public ApolloHospital(int size) {
 		patients=new Patient[size];
@@ -159,8 +160,133 @@ public class ApolloHospital extends Hospital {
 		}
 }
 	
+	/*public boolean updatePatientAddressByName(String name,String newPatientAddress) {
+		boolean isUpdate=false;
+		System.out.println("inside updatePatientAddressByName");
+		System.out.println("no of parameters:2:1)param patientName(String) 2) param patientNewAddress");
+		for (int i = 0; i < patients.length; i++) {
+			if(patients[i].getPatientName().equals(name)) {
+				System.out.println("patient name is matched procedd with updating the address");
+				patients[i].setAddress(newPatientAddress);
+		
+				isUpdate=true;
+				
+			}
+		}
+		return isUpdate;
+	
+	}*/
 	
 	
 	
+	/*public boolean updatePatientAgeByName(String name,int newPatientAge) {
+		boolean isUpdate=false;
+		System.out.println("inside updatePatientAgeByName");
+		System.out.println("no of parameters:2:1)param patientName(String) 2) param patientNewAge");
+		for (int i = 0; i < patients.length; i++) {
+			if(patients[i].getPatientName().equals(name)) {
+				System.out.println("patient name is matched procedd with updating the age");
+				patients[i].setAge(newPatientAge);
+		
+				isUpdate=true;
+				
+			}
+		}
+		return isUpdate;
+  }*/
 	
+	/*public boolean deletePatientByName(String patientName) {
+		boolean isDeleted = false;
+		newPatients = new Patient[patients.length - 1];
+		// int j=0 ;
+		for (int i = 0, k = 0; i < patients.length; i++) {
+			if (!patients[i].getPatientName().equals(patientName)) {
+				newPatients[k++] = patients[i];
+				isDeleted = true;
+			}
+		}
+		// System.out.println(Arrays.toString(newPatients.));
+
+		return isDeleted;
+	}
+
+	public void getAllNewPatients() {
+		System.out.println("List of Patients are :");
+		for (int i = 0; i < newPatients.length; i++) {
+			System.out.println(newPatients[i].getAddress() + "  " + newPatients[i].getPatientName() + "  "
+					+ newPatients[i].getAge() + "  " + newPatients[i].getGender());
+		}
+	}*/
+	
+	
+	
+	/*public boolean deletePatientByAge(int age) {
+		boolean isDeleted = false;
+		newPatients = new Patient[patients.length - 1];
+		// int j=0 ;
+		for (int i = 0, k = 0; i < patients.length; i++) {
+			if (!patients[i].getAge().equals(age)) {
+				newPatients[k++] = patients[i];
+				isDeleted = true;
+			}
+		}
+		// System.out.println(Arrays.toString(newPatients.));
+
+		return isDeleted;
+	}
+
+	public void getAllNewPatients() {
+		System.out.println("List of Patients are :");
+		for (int i = 0; i < newPatients.length; i++) {
+			System.out.println(newPatients[i].getAddress() + "  " + newPatients[i].getPatientName() + "  "
+					+ newPatients[i].getAge() + "  " + newPatients[i].getGender());
+		}
+	}*/
+	
+	
+	/*public boolean deletePatientByAddress(String address) {
+		boolean isDeleted = false;
+		newPatients = new Patient[patients.length - 1];
+		// int j=0 ;
+		for (int i = 0, k = 0; i < patients.length; i++) {
+			if (!patients[i].getAddress().equals(address)) {
+				newPatients[k++] = patients[i];
+				isDeleted = true;
+			}
+		}
+		// System.out.println(Arrays.toString(newPatients.));
+
+		return isDeleted;
+	}
+
+	public void getAllNewPatients() {
+		System.out.println("List of Patients are :");
+		for (int i = 0; i < newPatients.length; i++) {
+			System.out.println(newPatients[i].getAddress() + "  " + newPatients[i].getPatientName() + "  "
+					+ newPatients[i].getAge() + "  " + newPatients[i].getGender());
+		}
+	}*/
+	
+	public boolean deletePatientByGenders(Gender gender) {
+		boolean isDeleted = false;
+		newPatients = new Patient[patients.length - 1];
+		// int j=0 ;
+		for (int i = 0, k = 0; i < patients.length; i++) {
+			if (!patients[i].getGender().equals(gender)) {
+				newPatients[k++] = patients[i];
+				isDeleted = true;
+			}
+		}
+		// System.out.println(Arrays.toString(newPatients.));
+
+		return isDeleted;
+	}
+
+	public void getAllNewPatients() {
+		System.out.println("List of Patients are :");
+		for (int i = 0; i < newPatients.length; i++) {
+			System.out.println(newPatients[i].getAddress() + "  " + newPatients[i].getPatientName() + "  "
+					+ newPatients[i].getAge() + "  " + newPatients[i].getGender());
+		}
+	}
 }

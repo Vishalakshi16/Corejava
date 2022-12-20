@@ -12,6 +12,10 @@ public class Patient {
   private Gender gender;
   private Integer age;
   
+public Patient(String patientName2, String address2, Gender female, int age2) {
+	// TODO Auto-generated constructor stub
+}
+
 //  public Patient(String patientName,String address,Gender gender,Integer age) {
 //	  super();
 //	  this.patientName=patientName;

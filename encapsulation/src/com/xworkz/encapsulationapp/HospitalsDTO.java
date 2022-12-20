@@ -1,0 +1,32 @@
+package com.xworkz.encapsulationapp;
+
+public class HospitalsDTO {
+	private String hospitalName;
+	private int noOfPatients;
+	private String address;
+	
+	public void setHospitalName(String hospitalName ) {
+		this.hospitalName=hospitalName;
+	}
+	public String getHospitalName() {
+		return hospitalName;
+	}
+	
+	public void setNoOfPatients(int noOfPatients) {
+		this.noOfPatients=noOfPatients;
+		
+	}
+	
+	public int getNoOfPatients() {
+		return noOfPatients;
+	}
+	
+	public void setAddress(String address) {
+		this.address=address;
+		
+	}
+	public String getAddress() {
+		return address;
+	}
+
+}

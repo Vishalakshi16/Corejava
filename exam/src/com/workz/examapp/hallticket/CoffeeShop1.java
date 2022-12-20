@@ -1,0 +1,41 @@
+package com.workz.examapp.hallticket;
+
+
+import com.workz.examapp.exam.Coffee1;
+
+public class CoffeeShop1 {
+	
+	public Coffee1 coffee1;
+	public int price;
+	public boolean isConnected;
+	public boolean sugarStatus;
+	
+	public boolean filter(Coffee1 coffee1) {
+		System.out.println("inside filter method");
+		boolean isConnected =  false;
+		if(price >= 50) {
+			System.out.println("Price is debited " +this.price);
+			if(coffee1 != null) {
+				this.coffee1 = coffee1;
+				System.out.println("Prepare a coffee");
+				this.coffee1.information();
+				isConnected = true;
+				System.out.println("Coffee is ready please have it");
+			}
+		else {
+			System.out.println("No coffee...");
+		}
+	}		
+			else {
+				System.out.println("Please pay the money");
+			}
+			return isConnected;
+		
+	}
+		
+}
+
+
+
+
+

@@ -5,5 +5,5 @@
  * @author HP
  *
  */
-module Inheritance {
+module inheritance {
 }
