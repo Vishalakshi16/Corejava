@@ -34,6 +34,16 @@ public class Currency {
 
 			TreeSet<String> collection=new TreeSet<String>();
 			
+			collection.add(Currency1);
+			collection.add(Currency2);
+			collection.add(Currency3);
+			collection.add(Currency4);
+			collection.add(Currency5);
+			collection.add(Currency6);
+			collection.add(Currency7);
+			collection.add(Currency8);
+			collection.add(Currency9);
+			collection.add(Currency10);
 			collection.add(Currency11);
 			collection.add(Currency12);
 			collection.add(Currency13);
@@ -43,10 +53,16 @@ public class Currency {
 			collection.add(Currency17);
 			collection.add(Currency18);
 			collection.add(Currency19);
-			collection.add(Currency10);
-			collection.add(Currency11);
-			collection.add(Currency12);
-			collection.add(Currency13);
+			collection.add(Currency20);
+			
+			collection.add(Currency21);
+			collection.add(Currency22);
+			collection.add(Currency23);
+			collection.add(Currency24);
+			collection.add(Currency25);
+			collection.add(Currency26);
+			
+			
 			
 			collection.add("dollar");
 			
